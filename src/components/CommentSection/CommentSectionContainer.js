@@ -16,13 +16,14 @@ return (
            key = {p.comments}
          post = {p}
           />
-           <commentInput 
-           post = {p}/>
+       
           </div>
-         
-      ))}
+       ))}
+         <CommentInput
+          />
     </div>
   );
 };
 
 export default CommentSection;
+2
